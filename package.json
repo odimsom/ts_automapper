@@ -1,0 +1,21 @@
+{
+  "name": "automaperts",
+  "version": "1.0.0",
+  "description": "pakete que busca emular el comportamiento de automaper en c# pero en ts open source para la comunidad  dev",
+  "main": "scr/server.ts",
+  "scripts": {
+    "start": "npx src/server.ts",
+    "dev": "nodemon src/server.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Francisco Daniel Castro Borrome",
+  "license": "ISC",
+  "packageManager": "pnpm@10.33.0",
+  "dependencies": {
+    "express": "^5.2.1",
+    "nodemon": "^3.1.14",
+    "tsx": "^4.22.0",
+    "typescript": "^6.0.3"
+  }
+}
