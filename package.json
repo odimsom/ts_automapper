@@ -1,5 +1,5 @@
 {
-  "name": "automaperts",
+  "name": "ts_automaper",
   "version": "1.0.0",
   "description": "Librería TypeScript inspirada en AutoMapper de C# para mapear objetos de forma sencilla.",
   "main": "scr/server.ts",
