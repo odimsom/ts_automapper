@@ -1,16 +1,30 @@
 {
   "name": "automaperts",
   "version": "1.0.0",
-  "description": "pakete que busca emular el comportamiento de automaper en c# pero en ts open source para la comunidad  dev",
+  "description": "Librería TypeScript inspirada en AutoMapper de C# para mapear objetos de forma sencilla.",
   "main": "scr/server.ts",
   "scripts": {
     "start": "npx src/server.ts",
     "dev": "nodemon src/server.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
+  "keywords": [
+    "typescript",
+    "automapper",
+    "object-mapper",
+    "mapping",
+    "open-source"
+  ],
   "author": "Francisco Daniel Castro Borrome",
-  "license": "ISC",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/odimsom/ts_automapper.git"
+  },
+  "bugs": {
+    "url": "https://github.com/odimsom/ts_automapper/issues"
+  },
+  "homepage": "https://github.com/odimsom/ts_automapper#readme",
   "packageManager": "pnpm@10.33.0",
   "dependencies": {
     "express": "^5.2.1",
